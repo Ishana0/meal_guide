@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+h1 {
+    color: orange;
+    font-size: 100;
+    text-align: center;
+}
+
+#background-img {
+    width: 100%;
+    height: 330px;
+    background-size: cover;
+}
+
+.background-img-description {
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    bottom: 350px;
+}
+
+.br {
+    line-height: 500px;
+}
+
+#logo-img {
+    width: 42px;
+    position: absolute;
+    top: 10px;
+    left: 35px;
+}
+
+#search-bar {
+    position: relative;
+    display: block;
+    height: 45px;
+    width: 800px;
+    margin-left: 530px;
+    bottom: 200px;
+    border: orange 3px solid;
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+    text-align: left;
+}
+
+#search-button {
+    width: 45px;
+    position: relative;
+    bottom: 250px;
+    left: 1350px;
+}
+
+#image {
+    position: relative;
+    display: block;
+    width: 380px;
+    bottom: 245px;
+    margin-left: 730px;
+    border: orange 3px solid;
+}
+
+#text {
+    position: relative;
+    bottom: 275px;
+    color: orange;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#container {
+    position: relative;
+    background-color: white;
+    left: 550px;
+    top: 200px;
+    width: 750px;
+    height: fit-content;
+    color: orange;
+    text-transform: capitalize;
+    font-size: 20px;
+    border: rgba(255, 165, 0, 100) 5px solid;
+    justify-content: center;
+    align-items: center;
+}
+
+#cancel-img {
+    width: 60px;
+    position: relative;
+    left: 680px;
+}
+
+#ingredients {
+    color: orange;
+    font-size: 55px;
+    position: relative;
+    text-align: center;
+    bottom: 50px;
+}
+#main-container {
+    background-color: white;
+    width: 90%;
+    height: fit-content;
+    margin-bottom: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    visibility: visible;
+    border: 5px red solid;
+}
